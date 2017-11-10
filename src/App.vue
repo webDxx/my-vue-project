@@ -32,9 +32,9 @@
         <el-aside style="flex: 0 0 230px;width: 230px;background:#eef1f6">
           <el-menu :default-openeds="['1', '3']">
             <el-submenu index="1">
-              <template slot="title"><i class="el-icon-message"></i>风控管理系统</template>
-              <el-menu-item index="1-1">产品管理</el-menu-item>
-              <el-menu-item index="1-2">策略管理</el-menu-item>
+              <template slot="title"><i class="el-icon-message"></i>管理系统</template>
+              <el-menu-item index="1-1">列表管理</el-menu-item>
+              <el-menu-item index="1-2">表单管理</el-menu-item>
             </el-submenu>
           </el-menu>
         </el-aside>
